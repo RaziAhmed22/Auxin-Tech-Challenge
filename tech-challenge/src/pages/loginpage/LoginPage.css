@@ -1,0 +1,29 @@
+.login-component {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    /* width: 300px; */
+    padding: 20px;
+}
+
+.password-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.link {
+    color:blue;
+    text-decoration: underline;
+}
+.link:hover {
+    cursor: pointer;
+}
